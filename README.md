@@ -14,8 +14,8 @@ Before you begin, ensure you have the following:
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/your-repo.git
-    cd your-repo
+    git clone https://github.com/nirmata/nirmata-aws-alb-integration.git
+    cd nirmata-aws-alb-integration
     ```
 
 2. Update the `variables.tf` file with your configurations:
