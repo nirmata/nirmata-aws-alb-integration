@@ -57,17 +57,21 @@ Before you begin, ensure you have the following:
       type        = list(string)
     }
     ```
+3. Update the `provider.tf` file with your aws sso profile:
 
-3. Run Terraform commands to deploy the infrastructure:
+    profile = "dev-test"
+
+
+4. Run Terraform commands to deploy the infrastructure:
 
     ```bash
     terraform init
     terraform apply
     ```
 
-4. Confirm the changes and apply them.
+5. Confirm the changes and apply them.
 
-5. The ALB DNS name will be displayed as an output. Access your application using this DNS name.
+6. The ALB DNS name will be displayed as an output. Access your application using this DNS name.
 
 ## Clean Up
 
